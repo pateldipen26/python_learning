@@ -18,15 +18,15 @@ print(gang)
 
 d1 = [1 , 5 , 80 , 26 , 22 ,56]
 
-# d1.sort()
+d1.sort()
 
-# d1.reverse()# list reverse counting
+d1.reverse()# list reverse counting 
 
-# d1.insert(4, 4657) #insert new valu
+d1.insert(4, 4657) #insert new valu
 
-# d1.pop(3) #removing valu
-# print(d1.pop(5)) #remov valu and highlight
+d1.pop(3) # pop index number using for remove 
+print(d1.pop(5)) #remov valu and highlight
 
-d1.remove(22)
+d1.remove(22) # specfic valu for remove
 
 print(d1)
