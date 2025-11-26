@@ -24,6 +24,9 @@ d1 = [1 , 5 , 80 , 26 , 22 ,56]
 
 # d1.insert(4, 4657) #insert new valu
 
+# d1.pop(3) #removing valu
+# print(d1.pop(5)) #remov valu and highlight
 
+d1.remove(22)
 
 print(d1)
