@@ -4,7 +4,8 @@ marks = {
     "zalak" : 99,
     "dipen" : 97,
     "dharmi" : 50,
-    "tejas" : 24
+    "tejas" : 24,
+    "sub":["maths","hindi","gujarati"],
 }
 
 print(marks, type(marks))
@@ -37,6 +38,8 @@ car = input("enter the fastest car name :")
 
 print(cars[car])
 
+# practice program
+
 d = {}
 
 name = input("enter frend name :")
@@ -56,3 +59,9 @@ lang = input("enter lang name :")
 d.update({name: lang})
 
 print(d)
+
+marks["tejas"]=52
+marks["vijay"]=20
+marks.popitem()
+marks.pop("dharmi")
+print(marks)

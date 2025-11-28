@@ -24,12 +24,16 @@ d1.reverse()# list reverse counting
 
 d1.insert(4, 4657) #insert new valu
 
+d1.extend(gang)  # marge 2 lists
+
 d1.pop(3) # pop index number using for remove 
 print(d1.pop(5)) #remov valu and highlight
 
 d1.remove(22) # specfic valu for remove
 
 print(d1)
+
+# practice code
 
 car = []
 
@@ -72,3 +76,6 @@ print(marks)
 D = [85,99,995,889,45,685]
 
 print(sum(D))
+
+
+print(len(set("banana")))

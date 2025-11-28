@@ -4,8 +4,8 @@ print(d)
 no = d.count(45) # counting for repeatation
 print(no)
 
-mo = d.index(26) # indexsing the number in tuple
-print(mo)
+no = d.index(26) # indexsing the number in tuple
+print(no)
 
 repeated = d * 4 # repeate the valu you ask time
 print(repeated)
@@ -27,3 +27,8 @@ f = (882,235,580,239,481,273,825,895,567,76,323,874,7,904,82,725,311)
 p = f.count(273)
 
 print(p)
+
+e = d+y # merge two tuples
+print(e)
+print(min(y)) #small value define from tuple
+print(max(f)) # big value define from tuple

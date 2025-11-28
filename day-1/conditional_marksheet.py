@@ -23,7 +23,7 @@ print("Percentage:",percentage)
 
 if(percentage >= 90 ):
     print("A")
-elif(perncentage >= 70 ):
+elif(percentage  >= 70 ):
     print("B")
 elif(percentage >= 60 ):
     print("C")    

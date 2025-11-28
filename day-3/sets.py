@@ -25,6 +25,7 @@ print(v)
 d3 = {"BMW","DUCATI","PAGANI","BUGATI","LAND_ROVER","KOENISEGG_JESKO","ASTON_MARTIN","MC_LAREN","PORSCHE","RIMAC_NEVERA","PININFARINA_BATTISTA","LAMBORGHINI_SIAN","FERRARI","MASERATI_MC20"}
 print (d3.pop())
 
+# practice set
 s = set()
 
 n = input("enter the number :")
