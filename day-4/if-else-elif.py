@@ -55,7 +55,7 @@ else:
 
 # using for name alphabet counting
 
-carname = input("enter username :") 
+carname =input("enter username :") 
 
 if(len(carname)<10):
     print("your car name have a normal alphabet")
@@ -96,3 +96,13 @@ if("dipen".lower() in post.lower()):
     print("this post talking about dipen")
 else:
     print("this post not talking about dipen")
+
+a = int(input("enter your number :"))
+
+if(a==0):
+    print("the number is 0", a)
+elif(a%2==0):
+    print("this number is even ", a)
+else:
+    print("this is odd number :", a)
+
