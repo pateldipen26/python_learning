@@ -72,3 +72,9 @@ for i in num:
 
 for i in range(1, 100, 2):
     print(i)
+
+a = int(input("enter the start number :"))
+b = int(input("enter the end number :"))
+
+for i in range(a,b+1):
+    print(i)
