@@ -24,8 +24,9 @@ while True:
             print("you have Rs:",balance,"in your account")
         elif(A == 3):
             withdraw =int(input("enter amount to withdraw :"))
+            balance -= withdraw
         Y_N = input("enter yes to continue or no to exit :")
         if(Y_N =="no" or "n"):
             break
         elif(Y_N =="yes" or "y"):
-            continue 
+            continue    
